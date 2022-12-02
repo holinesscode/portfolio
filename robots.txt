@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <title>Gambit V - Новости ролевого сервера</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,800;1,700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.ckeditor.com/4.17.1/standard/ckeditor.js"></script> <! -- Временно -->
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <a href="https://gambit-v.ru/" class="header__logo">
+                    <img src="/assets/images/logo.svg" alt="logo">
+                </a>
+                <nav class="header_menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="https://gambit-v.ru/" class="menu__link">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="https://gambit-v.ru/blog" class="menu__link">Блог</a>
+                        </li>
+                        <li class="menu__item">
+                            <a target="_blank" href="https://forum.gambit-v.ru/" class="menu__link">Форум</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="page">
+    <div class="page__post post" id="header">
+        <div class="post__container _container">
+            <div class="not-found__header">
+                <h2 class="header-block__title header-block">Ошибка 404.</h2>
+                <h3>Запрашиваемая страница не найдена</h3>
+            </div>
+            <div class="post__body">
+                <div class="post__image">
+                    <img src="assets/images/icons/emoji.png" class="not-found-preview" alt="preview">
+                </div>
+            </div>
+        </div>
+    </div>
+<main>
+
+        
+    </div>
+    <footer class="footer">
+        <div class="footer__body _container">
+            <p>Любое копирование<br>материала запрещено</p>
+            <img class="footer__logo" src="/assets/images/logo.svg" alt="">
+            <a href="#header" class="footer__up">
+                <img src="/assets/images/icons/arrowup.png" alt="">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
